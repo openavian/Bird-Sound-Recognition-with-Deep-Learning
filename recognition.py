@@ -105,7 +105,7 @@ def from_wavs(wavs, device="cpu"):
     """
     detector = SVExtractor(mdl_bad_kwargs, model_dir, device=device)
     results = []
-    for wav_ in tqdm(wavs, desc="Detecting noises"):
+    for wav_ in tqdm(wavs, desc="Indentifying Birds"):
         utt_ = wav_.split('/')[-1].split('.')[0]
         wav_feats = extract_feat(wav_)
         wav_logits = softmax(detector(wav_feats)).tolist()
