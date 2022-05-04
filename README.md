@@ -1,6 +1,6 @@
 # Large-Scale-Birds-Recognition-in-China
 
-This repo is my Signature Work @ Duke Kunshan University. We aim to build a pipeline for Large Scale Birds Detection and Recognition in China.
+This repo contains my [**Signature Work**](https://swce.dukekunshan.edu.cn/projects/bird-sound-classification-in-china-region-based-on-deep-learning-methods/) @ Duke Kunshan University. We aim to build a pipeline for Large Scale Birds Detection and Recognition in China.
 
 - For bird song **data retrieval**, refer to our toolkit [**XenoPy**](https://github.com/realzza/xenopy) build upon Xeno-canto API 2.0.
 
