@@ -1,0 +1,7 @@
+soxr
+torch
+soundfile
+numpy
+tqdm
+scipy
+python_speech_features
